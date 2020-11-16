@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "netherchat:font/volume.png",
+      "ascent": 7,
+      "chars": [
+        "\u0001\u0002\u0003\u0004"
+      ]
+    }
+  ]
+}
