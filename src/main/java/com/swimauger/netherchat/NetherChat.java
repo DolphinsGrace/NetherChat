@@ -1,5 +1,6 @@
 package com.swimauger.netherchat;
 
+import com.swimauger.netherchat.common.ChatPacketHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -25,6 +26,7 @@ public class NetherChat
 
     private void onCommonSetup(final FMLCommonSetupEvent event) {
         // On server setup
+        ChatPacketHandler.registerMessages();
     }
 
     private void onClientSetup(final FMLClientSetupEvent event) {

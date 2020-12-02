@@ -1,10 +1,10 @@
 package com.swimauger.netherchat.client.text;
 
 public enum VolumeLevel {
-    MUTE("\u0004"),
-    LOW("\u0003"),
+    HIGH("\u0001"),
     MEDIUM("\u0002"),
-    HIGH("\u0001");
+    LOW("\u0003"),
+    MUTE("\u0004");
 
     public final String code;
 
